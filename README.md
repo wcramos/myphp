@@ -1,13 +1,11 @@
-wcramos/lamp
+wcramos/myphp
 ==========
 
-![docker_logo](https://raw.githubusercontent.com/wcramos/docker-lamp/master/docker_139x115.png)
+![docker_logo](https://raw.githubusercontent.com/wcramos/myphp/master/docker_139x115.png)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/wcramos/lamp.svg?style=plastic)](https://hub.docker.com/r/wcramos/lamp/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/wcramos/myphp.svg?style=plastic)](https://hub.docker.com/r/wcramos/myphp/)
 
-This Docker container implements a last generation LAMP stack with a set of popular PHP modules. Includes support for [Composer](https://getcomposer.org/), [Yarn](https://yarnpkg.com/en/) and [npm](https://www.npmjs.com/) package managers.
-
-If you dont need support for MySQL/MariaDB, or your app runs on PHP 5.4, maybe [fauria/lap](https://hub.docker.com/r/fauria/lap) suits your needs better.
+This Docker container implements a last generation PHP7 stack with a set of popular PHP modules. Includes support for [Composer](https://getcomposer.org/), [Yarn](https://yarnpkg.com/en/) and [npm](https://www.npmjs.com/) package managers.
 
 Includes the following components:
 
@@ -57,13 +55,13 @@ Includes the following components:
 	* ftp
 	* curl
 
-Installation from [Docker registry hub](https://registry.hub.docker.com/u/wcramos/lamp/).
+Installation from [Docker registry hub](https://registry.hub.docker.com/u/wcramos/myphp/).
 ----
 
 You can download the image using the following command:
 
 ```bash
-docker pull wcramos/lamp
+docker pull wcramos/myphp
 ```
 
 Environment variables
